@@ -1,8 +1,10 @@
 package cat.itacademy.barcelonactiva.granero.eduard.s05.t01.n03.S05T01N03GraneroEduard.model.repository;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.client.WebClient;
 
+@Configuration
 public class WebClientFlower {
     @Bean
     public WebClient webClient(){
